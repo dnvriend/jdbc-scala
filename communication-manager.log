@@ -1,0 +1,1508 @@
+01:13:11 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:13:11 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:13:11 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (15 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:19)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:13:33 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:13:33 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:13:33 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (16 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:19)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:13:33 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Alice', current_timestamp); (2 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:23)
+    com.example.Main$$anonfun$1.apply(Main.scala:22)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:22)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:13:33 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Bob', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:23)
+    com.example.Main$$anonfun$1.apply(Main.scala:22)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:22)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:13:33 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Chris', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:23)
+    com.example.Main$$anonfun$1.apply(Main.scala:22)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:22)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:13:33 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (7 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:13:33 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:39)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:13:33 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select m.id as i_on_m, m.name as n_on_m, m.created_at as ca_on_m from members m where m.name = 'Alice'; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:46)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:14:14 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:14:14 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:14:15 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (13 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:19)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:14:15 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Alice', current_timestamp); (3 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:23)
+    com.example.Main$$anonfun$1.apply(Main.scala:22)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:22)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:14:15 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Bob', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:23)
+    com.example.Main$$anonfun$1.apply(Main.scala:22)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:22)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:14:15 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Chris', current_timestamp); (1 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:23)
+    com.example.Main$$anonfun$1.apply(Main.scala:22)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:22)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:14:15 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (7 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:14:15 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:40)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:14:15 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select m.id as i_on_m, m.name as n_on_m, m.created_at as ca_on_m from members m where m.name = 'Alice'; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:47)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:11)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:14:36 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:14:36 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:14:36 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (15 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:11)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:14:36 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Alice', current_timestamp); (2 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:15)
+    com.example.Main$$anonfun$1.apply(Main.scala:14)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:14)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:14:36 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Bob', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:15)
+    com.example.Main$$anonfun$1.apply(Main.scala:14)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:14)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:14:36 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Chris', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:15)
+    com.example.Main$$anonfun$1.apply(Main.scala:14)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:14)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:14:36 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (7 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:19)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:14:36 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:32)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:14:37 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select m.id as i_on_m, m.name as n_on_m, m.created_at as ca_on_m from members m where m.name = 'Alice'; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:39)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:15:14 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:15:14 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:15:14 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (16 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:11)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:15:14 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Alice', current_timestamp); (3 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:15)
+    com.example.Main$$anonfun$1.apply(Main.scala:14)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:14)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:15:14 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Bob', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:15)
+    com.example.Main$$anonfun$1.apply(Main.scala:14)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:14)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:15:14 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Chris', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:15)
+    com.example.Main$$anonfun$1.apply(Main.scala:14)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:14)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:15:14 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (7 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:19)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:15:34 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:15:34 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:15:34 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (15 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:11)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:15:34 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Alice', current_timestamp); (2 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:15)
+    com.example.Main$$anonfun$1.apply(Main.scala:14)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:14)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:15:34 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Bob', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:15)
+    com.example.Main$$anonfun$1.apply(Main.scala:14)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:14)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:15:34 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Chris', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:15)
+    com.example.Main$$anonfun$1.apply(Main.scala:14)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:14)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:15:34 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (7 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:19)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:15:34 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:32)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:15:35 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select m.id as i_on_m, m.name as n_on_m, m.created_at as ca_on_m from members m where m.name = 'Alice'; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:39)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:3)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:22:07 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:22:07 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:22:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (16 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:24)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:22:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Alice', current_timestamp); (3 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:28)
+    com.example.Main$$anonfun$1.apply(Main.scala:27)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:22:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Bob', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:28)
+    com.example.Main$$anonfun$1.apply(Main.scala:27)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:22:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Chris', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:28)
+    com.example.Main$$anonfun$1.apply(Main.scala:27)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:22:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (7 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:32)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:22:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:36)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:22:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select m.id as i_on_m, m.name as n_on_m, m.created_at as ca_on_m from members m where m.name = 'Alice'; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:43)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:24:56 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:24:56 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:24:57 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (14 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:24)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:24:57 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Alice', current_timestamp); (2 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:28)
+    com.example.Main$$anonfun$1.apply(Main.scala:27)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:24:57 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Bob', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:28)
+    com.example.Main$$anonfun$1.apply(Main.scala:27)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:24:57 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Chris', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:28)
+    com.example.Main$$anonfun$1.apply(Main.scala:27)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:24:57 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (7 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:32)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:24:57 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:36)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:24:57 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select m.id as i_on_m, m.name as n_on_m, m.created_at as ca_on_m from members m where m.name = 'Alice'; (1 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:43)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:25:07 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:25:07 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+01:25:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (16 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:24)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:25:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Alice', current_timestamp); (3 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:28)
+    com.example.Main$$anonfun$1.apply(Main.scala:27)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:25:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Bob', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:28)
+    com.example.Main$$anonfun$1.apply(Main.scala:27)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:25:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Chris', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$$anonfun$1.apply(Main.scala:28)
+    com.example.Main$$anonfun$1.apply(Main.scala:27)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.Main$delayedInit$body.apply(Main.scala:27)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+01:25:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (7 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:32)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:25:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:36)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+01:25:07 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select m.id as i_on_m, m.name as n_on_m, m.created_at as ca_on_m from members m where m.name = 'Alice'; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.Main$delayedInit$body.apply(Main.scala:43)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.Main$.main(Main.scala:16)
+    com.example.Main.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+11:57:17 DEBUG [] - Registered connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+11:57:17 DEBUG [] - Registered singleton connection pool : ConnectionPool(url:jdbc:h2:mem:db, user:sa)
+11:57:17 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   create table members ( id serial not null primary key, name varchar(64), created_at timestamp not null ); (19 ms)
+
+  [Stack Trace]
+    ...
+    com.example.ScaLikeMain$delayedInit$body.apply(Main.scala:36)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.ScaLikeMain$.main(Main.scala:28)
+    com.example.ScaLikeMain.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+11:57:17 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Alice', current_timestamp); (3 ms)
+
+  [Stack Trace]
+    ...
+    com.example.ScaLikeMain$$anonfun$1.apply(Main.scala:40)
+    com.example.ScaLikeMain$$anonfun$1.apply(Main.scala:39)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.ScaLikeMain$delayedInit$body.apply(Main.scala:39)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.ScaLikeMain$.main(Main.scala:28)
+    com.example.ScaLikeMain.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+11:57:17 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Bob', current_timestamp); (1 ms)
+
+  [Stack Trace]
+    ...
+    com.example.ScaLikeMain$$anonfun$1.apply(Main.scala:40)
+    com.example.ScaLikeMain$$anonfun$1.apply(Main.scala:39)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.ScaLikeMain$delayedInit$body.apply(Main.scala:39)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.ScaLikeMain$.main(Main.scala:28)
+    com.example.ScaLikeMain.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+11:57:17 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   insert into members (name, created_at) values ('Chris', current_timestamp); (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.ScaLikeMain$$anonfun$1.apply(Main.scala:40)
+    com.example.ScaLikeMain$$anonfun$1.apply(Main.scala:39)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    com.example.ScaLikeMain$delayedInit$body.apply(Main.scala:39)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.ScaLikeMain$.main(Main.scala:28)
+    com.example.ScaLikeMain.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    ...
+
+11:57:17 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (6 ms)
+
+  [Stack Trace]
+    ...
+    com.example.ScaLikeMain$delayedInit$body.apply(Main.scala:44)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.ScaLikeMain$.main(Main.scala:28)
+    com.example.ScaLikeMain.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+11:57:17 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select * from members; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.ScaLikeMain$delayedInit$body.apply(Main.scala:48)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.ScaLikeMain$.main(Main.scala:28)
+    com.example.ScaLikeMain.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
+11:57:18 DEBUG [] - SQL execution completed
+
+  [SQL Execution]
+   select m.id as i_on_m, m.name as n_on_m, m.created_at as ca_on_m from members m where m.name = 'Alice'; (0 ms)
+
+  [Stack Trace]
+    ...
+    com.example.ScaLikeMain$delayedInit$body.apply(Main.scala:55)
+    scala.Function0$class.apply$mcV$sp(Function0.scala:40)
+    scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:12)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.App$$anonfun$main$1.apply(App.scala:71)
+    scala.collection.immutable.List.foreach(List.scala:318)
+    scala.collection.generic.TraversableForwarder$class.foreach(TraversableForwarder.scala:32)
+    scala.App$class.main(App.scala:71)
+    com.example.ScaLikeMain$.main(Main.scala:28)
+    com.example.ScaLikeMain.main(Main.scala)
+    sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    java.lang.reflect.Method.invoke(Method.java:483)
+    com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+    ...
+
